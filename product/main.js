@@ -1,1 +1,0 @@
-console.log(function(n=1,o=2){return n+2}());

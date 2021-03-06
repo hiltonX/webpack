@@ -14,6 +14,9 @@
  * 以./src/index.js为入口文件，将chunk输出到./product文件夹下，打包成main.js
  */
 
+import data from './data.json'
+
+console.log(data, 'data')
 
 function add (x = 1, y = 2) {
   return x + 2
